@@ -60,7 +60,7 @@ class ViewController: UIViewController ,UITableViewDataSource  {
             fetchEmployees()
             if (employees.count == 0 ){
                 
-                let alert = UIAlertController(title: "No Network?!", message: "You need network connection for the first start to get data from Nasa", preferredStyle: UIAlertControllerStyle.alert)
+                let alert = UIAlertController(title: "No Network?!", message: "You need network connection for the first start to get data", preferredStyle: UIAlertControllerStyle.alert)
                 
                 // add an action (button)
                 alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: { (action:UIAlertAction!) -> Void in
